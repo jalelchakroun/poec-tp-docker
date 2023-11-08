@@ -10,3 +10,5 @@ def apply_vat(price: float, percent: float):
     if percent < 0 or percent >100:
         raise ValueError(f'la TVA {percent}) est hors la loi ! out of range')
     return price * (1+percent/100)
+
+##
